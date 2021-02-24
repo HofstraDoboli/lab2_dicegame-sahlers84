@@ -48,13 +48,13 @@ int main()
   
 
     output_file << "\nQ1: (cin only) What happens when you run the code above? Explain why" << endl;
-    string answer = ""; // enter your answer in between ""
+    string answer = "I entered 10 and the flag is false. But when 4.5 is entered the flag is still false, while the value 4 is extracted. The program then continues to run without accepting any input. "; // enter your answer in between ""
     output_file << "Answer Q1: " << answer << endl;
 
     cout << "\nCode for Q2 and Q3" << endl;
-    /* //uncomment when you get to Q2 and Q3
+    //uncomment when you get to Q2 and Q3
     for (int i = 0; i < array_values.size(); i++)
-    {
+   /* {
         cout << "\tEnter the value " << array_values.at(i) << endl;
         cout << "\tEnter an int "; 
         cin >> val;
@@ -74,20 +74,21 @@ int main()
         }
         
         cout << "\tYou entered " << val << endl << endl;
-    }  
-    */
+    
+    }   */ 
+    
 
     output_file << "\nQ2: (cin + fail+ignore) What happens when you run the code above? Explain why." << endl;
-    answer = ""; // enter your answer in between ""
+    answer = "I entered 10 and the fail flag was set to false. After I entered 4.5 and the flag was still false but it shows that .5 was unread in the buffer \n for abc and a it sets the fail flag to true and explains it is not an integer."; // enter your answer in between ""
     output_file << "Answer Q2: " << answer << endl;
 
     output_file << "\nQ3: Is the problem of reading an integer value solved? Explain your reasoning." << endl;
-    answer = ""; // enter your answer in between ""
+    answer = "No, because 4.5 will set the flag to false."; // enter your answer in between ""
     output_file << "Answer Q3: " << answer << endl;
-
+/
     cout << "\nCode for Q4" << endl;
     // uncomment when you get to Q4
-   /*
+/*   
     for (int i = 0; i < array_values.size(); i++)
     {
         cout << "\tEnter the value " << array_values.at(i) << endl;
@@ -98,10 +99,10 @@ int main()
         val = stoi(s);  // stoi = converts a string into an integer 
                             // read more at http://www.cplusplus.com/reference/string/stoi/?kw=stoi
         cout << "\tYou entered " << val << endl << endl;
-    }  
-*/
+    }  */
+
     output_file << "\nQ4: (getline only) What happens when you run the code above? Explain why." << endl;
-    answer = ""; // enter your answer in between ""
+    answer = "When you enter abc the program shows and error and terminates the code"; // enter your answer in between ""
     output_file << "Answer Q4: " << answer << endl;
 
     // Comment the for loop for Q4 above - leave the answer to Q4
@@ -124,7 +125,7 @@ int main()
         cout << "\tYou entered " << val << endl << endl;
     }
     output_file << "\nQ5: (getline+stoi) What happens when you run the code above? Explain why." << endl;
-    answer = ""; // enter your answer in between ""
+    answer = "You get an invalid argument: stoi. The last 3 inputs all come out as 4. "; // enter your answer in between ""
     output_file << "Answer Q5: " << answer << endl;
 
     //6. Q6 Add code to enter integer values from the keyboard correctly = accept only 10, not 4.5, abc or a
