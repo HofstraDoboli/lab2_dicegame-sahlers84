@@ -1,0 +1,73 @@
+/* SHANE AHLERS */
+    
+#include <iostream>
+#include <cstdlib>  // contains the rand() and srand() function 
+#include <ctime>    // time() function
+using namespace std;
+
+srand(time(NULL));
+
+
+
+int main()
+{ cout >> "Would you like to play the dice game? (Y / N)" >> endl; 
+  cin << x;
+
+{
+    /* code */
+    while (x=Y)
+    
+    init dice1(rand(1,6));
+    init dice2(rand(1,6));
+    sum_dice = dice1 + dice2;
+    cout << "You rolled a total of " << score << endl; 
+    if (sum_dice = 7 , 11)
+        cout << "Congradulations you Won!" << endl;
+    else if (sum_dice = 2, 3, 12)
+        cout << "You lost. Better luck next time." << endl;
+    else 
+    {
+        init point = sum_dice;
+        cout << "Your point total is" << sum_dice << endl;
+        init not_win = false;
+        init not_loss = false;
+        while not_win = true && not_loss = true 
+        { 
+            init dice1(rand(1,6));
+            init dice2(rand(1,6));
+            init sum_dice;
+            cout << "You rolled " << sum_dice << endl;
+            if sum_dice%2 == 0
+
+            else 
+                not_win = false;
+
+            if (sum_dice = 7)
+                not_loss = false;
+            
+        } //ENDS WHILE WHEN BOTH ARE TRUE   
+        if not_win = true 
+            cout << "You lost, better luck next time" << endl;
+        else 
+            cout << "Congradulations, you won!" << endl;
+
+    cout << "Would you like to play again? (Y/N)" << endl;
+    cin >> y; 
+    if (y = Y)
+        x = n;
+        x = Y; 
+    return; 
+    }
+    
+
+}
+
+    srand(time(0)); // initialize random seed generator to current time: 
+					// needed to generate a different sequence of random numbers
+					// each time you run your program
+
+    // Add your code to play the dice game here
+
+}
+
+
