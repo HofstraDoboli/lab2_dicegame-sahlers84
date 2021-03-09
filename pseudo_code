@@ -1,1 +1,30 @@
-Add your steps (pseudo-code) for the dice game here.
+
+Variables 
+
+PlayerScore1 - players current score (preset 0) 
+Playerscore2 - same as playerscore1 but for second person
+(D1) Dice 1 - holds number rolled by dye 1 
+(D2) Dice 2 - holds number rolled by dye 2
+Gamestart = (Y/N) → (preset to Y then undetermined at end) 
+Yes - 1
+No - 0
+Ask - 2 
+
+Initiation Functions
+While Gamestart = 1 
+			Start game 
+While Gamestart = 0
+		print “thank you for playing / if they won or lost”
+                      Stop game (endl;)
+While gamestart = 2 
+		Ask to play again 
+                                 IF “Y” 
+                                Implement reset variables
+
+
+Functionality of Dice / Score 
+Implement random function for dice rolling score ; 
+
+Dice1 range 1 - 6 
+Dice 2 range 1 - 6 
+
